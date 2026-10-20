@@ -85,7 +85,7 @@
   editor.addEventListener('submit', event => {
     event.preventDefault();
     Object.values(inputs).forEach(input => {
-      input.setCustomValidity(input.value.trim() ? '' : 'Bạn viết vài chữ vào đây nhé.');
+      input.setCustomValidity(input.value.trim() ? '' : 'Duyên Thúi viết vài chữ vào đây nhé.');
     });
     if (!editor.reportValidity()) return;
     greeting = Object.fromEntries(Object.entries(inputs).map(([key, input]) => [key, input.value.trim()]));
@@ -93,7 +93,7 @@
     showReading();
     try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(greeting));
-      status.textContent = 'Đã lưu lời chúc của bạn.';
+      status.textContent = 'Đã lưu lời chúc của Duyên Thúi.';
     } catch {
       status.textContent = 'Đã cập nhật thiệp. Trình duyệt chưa cho phép lưu để dùng lần sau.';
     }

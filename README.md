@@ -1,4 +1,4 @@
-# Một bó hoa dành tặng bạn · 20/10
+# Một bó hoa dành tặng Duyên Thúi · 20/10
 
 Trang tặng hoa, album ảnh người nhận và thiệp chúc mừng ngày Phụ nữ Việt Nam 20/10, dùng HTML, CSS và JavaScript thuần. Hoạt động offline, không cần cài thư viện hoặc build.
 
@@ -46,9 +46,9 @@ Mở `garden.html` trực tiếp trong trình duyệt, chọn **Ngắm vườn h
 - Ảnh đã chọn chỉ có trên trình duyệt này, không tự chia sẻ sang thiết bị khác hoặc thay đổi tệp ảnh trong mã nguồn.
 
 
-Album gồm ba ô ảnh, mặc định dùng cùng một ảnh mẫu. Ngoài cách thay trực tiếp trên trang, có thể sửa ảnh mặc định trong mã nguồn để người khác mở trang cũng thấy ảnh của bạn:
+Album gồm ba ô ảnh, mặc định dùng cùng một ảnh mẫu. Ngoài cách thay trực tiếp trên trang, có thể sửa ảnh mặc định trong mã nguồn để người khác mở trang cũng thấy ảnh của Duyên Thúi:
 
-1. Chép ảnh của bạn vào thư mục `assets`, ví dụ `assets/me.jpg`.
+1. Chép ảnh của Duyên Thúi vào thư mục `assets`, ví dụ `assets/me.jpg`.
 2. Trong phần `memoryAlbum` ở `index.html`, đổi `src="./assets/portrait-placeholder.webp"` của từng ô ảnh thành đường dẫn tương ứng, ví dụ `src="./assets/me.jpg"`.
 3. Sửa `alt` và hai dòng chữ trong `figcaption` nếu muốn cá nhân hóa phần ảnh.
 

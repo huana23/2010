@@ -160,14 +160,14 @@
 <body>
   <main class="garden" id="garden">
     <header class="page-header">
-      <p class="dedication">Dành bạn, cả một vườn thương.</p>
+      <p class="dedication">Dành Duyên Thúi, cả một vườn thương.</p>
       <p class="date"><span>20 / 10</span>Ngày Phụ nữ Việt Nam</p>
     </header>
     <canvas id="flowers" aria-hidden="true"></canvas>
     <button class="flower-button" id="bloom" type="button" aria-label="Chạm để cả vườn hoa nở" aria-describedby="introHint"></button>
     <div class="intro" id="intro">
       <h1>Từ một bông hoa nhỏ…</h1>
-      <p id="introHint">Chạm vào hoa, một điều dịu dàng đang chờ bạn.</p>
+      <p id="introHint">Chạm vào hoa, một điều dịu dàng đang chờ Duyên Thúi.</p>
     </div>
     <p class="progress" id="status" role="status" aria-live="polite" aria-atomic="true"></p>
     <nav class="garden-actions" id="actions" aria-label="Vườn hoa và thiệp" hidden>
@@ -188,14 +188,14 @@
           </g>
         </svg>
         <div id="cardReading">
-          <p class="recipient">Gửi <span id="cardRecipient">bạn thương mến</span>,</p>
-          <h2 id="cardTitle">Mong những điều đẹp đẽ<br>luôn nở bên bạn.</h2>
+          <p class="recipient">Gửi <span id="cardRecipient">Duyên Thúi thương mến</span>,</p>
+          <h2 id="cardTitle">Mong những điều đẹp đẽ<br>luôn nở bên Duyên Thúi.</h2>
           <div id="cardMessage">
-            <p class="message">Một bông hoa có thể làm một ngày thêm đẹp.<br>Còn bạn, làm thế giới này dịu dàng hơn.</p>
-            <p class="message">Nhân ngày 20/10, chúc bạn luôn được yêu thương, trân trọng và có thật nhiều niềm vui. Mong bạn đủ bình yên để tận hưởng những điều nhỏ bé, đủ tự tin để theo đuổi những điều mình yêu.</p>
+            <p class="message">Một bông hoa có thể làm một ngày thêm đẹp.<br>Còn Duyên Thúi, làm thế giới này dịu dàng hơn.</p>
+            <p class="message">Nhân ngày 20/10, chúc Duyên Thúi luôn được yêu thương, trân trọng và có thật nhiều niềm vui. Mong Duyên Thúi đủ bình yên để tận hưởng những điều nhỏ bé, đủ tự tin để theo đuổi những điều mình yêu.</p>
             <p class="message">Hôm nay và cả những ngày sau,<br>hãy cứ rạng rỡ theo cách của riêng mình nhé.</p>
           </div>
-          <p class="signature" id="cardSignature">Gửi bạn thật nhiều thương mến ♡</p>
+          <p class="signature" id="cardSignature">Gửi Duyên Thúi thật nhiều thương mến ♡</p>
           <div class="letter-actions">
             <button class="view-garden" id="viewGarden" type="button" autofocus>Ngắm vườn hoa</button>
             <button class="view-garden" id="editCard" type="button"></button>
@@ -220,7 +220,7 @@
         <p class="card-status" id="cardStatus" role="status" aria-live="polite"></p>
       </article>
     </dialog>
-    <noscript><p class="noscript">Bật JavaScript để chạm vào hoa và mở thiệp nhé.<br>Chúc bạn ngày 20/10 bình an, rạng rỡ và tràn đầy yêu thương!</p></noscript>
+    <noscript><p class="noscript">Bật JavaScript để chạm vào hoa và mở thiệp nhé.<br>Chúc Duyên Thúi ngày 20/10 bình an, rạng rỡ và tràn đầy yêu thương!</p></noscript>
   </main>
   <script>
     (() => {
@@ -528,7 +528,7 @@
       }
       function finish() {
         state = 'ready'; garden.classList.add('is-ready'); actions.hidden = false;
-        status.textContent = 'Cả vườn hoa đã nở. Một tấm thiệp dành tặng bạn.';
+        status.textContent = 'Cả vườn hoa đã nở. Một tấm thiệp dành tặng Duyên Thúi.';
         openCard();
       }
       function draw(time) {
@@ -645,7 +645,7 @@
         try { localStorage.setItem('tulip_wish_2010', JSON.stringify(data)); } catch (err) {}
         cardEditor.hidden = true;
         cardReading.hidden = false;
-        cardStatus.textContent = 'Đã lưu lời chúc của bạn ♡';
+        cardStatus.textContent = 'Đã lưu lời chúc của Duyên Thúi ♡';
       });
 
       document.addEventListener('visibilitychange', () => {
